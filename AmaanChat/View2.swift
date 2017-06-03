@@ -10,6 +10,8 @@ import UIKit
 
 class View2: UIViewController {
 
+    @IBOutlet weak var V2View: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -10,6 +10,8 @@ import UIKit
 
 class View3: UIViewController {
 
+    @IBOutlet weak var V3View: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
