@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35432C41EE2E59C00565ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35432C31EE2E59C00565ADC /* AppDelegate.swift */; };
+		D35432C61EE2E59C00565ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35432C51EE2E59C00565ADC /* ViewController.swift */; };
+		D35432C91EE2E59C00565ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35432C71EE2E59C00565ADC /* Main.storyboard */; };
+		D35432CB1EE2E59C00565ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35432CA1EE2E59C00565ADC /* Assets.xcassets */; };
+		D35432CE1EE2E59C00565ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35432CC1EE2E59C00565ADC /* LaunchScreen.storyboard */; };
+		D35432D91EE2E59C00565ADC /* AmaanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35432D81EE2E59C00565ADC /* AmaanChatTests.swift */; };
+		D35432E41EE2E59C00565ADC /* AmaanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35432E31EE2E59C00565ADC /* AmaanChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35432D51EE2E59C00565ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35432B81EE2E59C00565ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35432BF1EE2E59C00565ADC;
+			remoteInfo = AmaanChat;
+		};
+		D35432E01EE2E59C00565ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35432B81EE2E59C00565ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35432BF1EE2E59C00565ADC;
+			remoteInfo = AmaanChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D35432C01EE2E59C00565ADC /* AmaanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35432C31EE2E59C00565ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D35432C51EE2E59C00565ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D35432C81EE2E59C00565ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35432CA1EE2E59C00565ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35432CD1EE2E59C00565ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35432CF1EE2E59C00565ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35432D41EE2E59C00565ADC /* AmaanChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaanChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35432D81EE2E59C00565ADC /* AmaanChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaanChatTests.swift; sourceTree = "<group>"; };
+		D35432DA1EE2E59C00565ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35432DF1EE2E59C00565ADC /* AmaanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35432E31EE2E59C00565ADC /* AmaanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaanChatUITests.swift; sourceTree = "<group>"; };
+		D35432E51EE2E59C00565ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35432BD1EE2E59C00565ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35432D11EE2E59C00565ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35432DC1EE2E59C00565ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35432B71EE2E59C00565ADC = {
+			isa = PBXGroup;
+			children = (
+				D35432C21EE2E59C00565ADC /* AmaanChat */,
+				D35432D71EE2E59C00565ADC /* AmaanChatTests */,
+				D35432E21EE2E59C00565ADC /* AmaanChatUITests */,
+				D35432C11EE2E59C00565ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35432C11EE2E59C00565ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35432C01EE2E59C00565ADC /* AmaanChat.app */,
+				D35432D41EE2E59C00565ADC /* AmaanChatTests.xctest */,
+				D35432DF1EE2E59C00565ADC /* AmaanChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35432C21EE2E59C00565ADC /* AmaanChat */ = {
+			isa = PBXGroup;
+			children = (
+				D35432C31EE2E59C00565ADC /* AppDelegate.swift */,
+				D35432C51EE2E59C00565ADC /* ViewController.swift */,
+				D35432C71EE2E59C00565ADC /* Main.storyboard */,
+				D35432CA1EE2E59C00565ADC /* Assets.xcassets */,
+				D35432CC1EE2E59C00565ADC /* LaunchScreen.storyboard */,
+				D35432CF1EE2E59C00565ADC /* Info.plist */,
+			);
+			path = AmaanChat;
+			sourceTree = "<group>";
+		};
+		D35432D71EE2E59C00565ADC /* AmaanChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35432D81EE2E59C00565ADC /* AmaanChatTests.swift */,
+				D35432DA1EE2E59C00565ADC /* Info.plist */,
+			);
+			path = AmaanChatTests;
+			sourceTree = "<group>";
+		};
+		D35432E21EE2E59C00565ADC /* AmaanChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35432E31EE2E59C00565ADC /* AmaanChatUITests.swift */,
+				D35432E51EE2E59C00565ADC /* Info.plist */,
+			);
+			path = AmaanChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35432BF1EE2E59C00565ADC /* AmaanChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35432E81EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChat" */;
+			buildPhases = (
+				D35432BC1EE2E59C00565ADC /* Sources */,
+				D35432BD1EE2E59C00565ADC /* Frameworks */,
+				D35432BE1EE2E59C00565ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmaanChat;
+			productName = AmaanChat;
+			productReference = D35432C01EE2E59C00565ADC /* AmaanChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35432D31EE2E59C00565ADC /* AmaanChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35432EB1EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChatTests" */;
+			buildPhases = (
+				D35432D01EE2E59C00565ADC /* Sources */,
+				D35432D11EE2E59C00565ADC /* Frameworks */,
+				D35432D21EE2E59C00565ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35432D61EE2E59C00565ADC /* PBXTargetDependency */,
+			);
+			name = AmaanChatTests;
+			productName = AmaanChatTests;
+			productReference = D35432D41EE2E59C00565ADC /* AmaanChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35432DE1EE2E59C00565ADC /* AmaanChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35432EE1EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChatUITests" */;
+			buildPhases = (
+				D35432DB1EE2E59C00565ADC /* Sources */,
+				D35432DC1EE2E59C00565ADC /* Frameworks */,
+				D35432DD1EE2E59C00565ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35432E11EE2E59C00565ADC /* PBXTargetDependency */,
+			);
+			name = AmaanChatUITests;
+			productName = AmaanChatUITests;
+			productReference = D35432DF1EE2E59C00565ADC /* AmaanChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35432B81EE2E59C00565ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Amaan Ali";
+				TargetAttributes = {
+					D35432BF1EE2E59C00565ADC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YVLUUPZQCB;
+						ProvisioningStyle = Automatic;
+					};
+					D35432D31EE2E59C00565ADC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YVLUUPZQCB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35432BF1EE2E59C00565ADC;
+					};
+					D35432DE1EE2E59C00565ADC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YVLUUPZQCB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35432BF1EE2E59C00565ADC;
+					};
+				};
+			};
+			buildConfigurationList = D35432BB1EE2E59C00565ADC /* Build configuration list for PBXProject "AmaanChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35432B71EE2E59C00565ADC;
+			productRefGroup = D35432C11EE2E59C00565ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35432BF1EE2E59C00565ADC /* AmaanChat */,
+				D35432D31EE2E59C00565ADC /* AmaanChatTests */,
+				D35432DE1EE2E59C00565ADC /* AmaanChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35432BE1EE2E59C00565ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35432CE1EE2E59C00565ADC /* LaunchScreen.storyboard in Resources */,
+				D35432CB1EE2E59C00565ADC /* Assets.xcassets in Resources */,
+				D35432C91EE2E59C00565ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35432D21EE2E59C00565ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35432DD1EE2E59C00565ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35432BC1EE2E59C00565ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35432C61EE2E59C00565ADC /* ViewController.swift in Sources */,
+				D35432C41EE2E59C00565ADC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35432D01EE2E59C00565ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35432D91EE2E59C00565ADC /* AmaanChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35432DB1EE2E59C00565ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35432E41EE2E59C00565ADC /* AmaanChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35432D61EE2E59C00565ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35432BF1EE2E59C00565ADC /* AmaanChat */;
+			targetProxy = D35432D51EE2E59C00565ADC /* PBXContainerItemProxy */;
+		};
+		D35432E11EE2E59C00565ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35432BF1EE2E59C00565ADC /* AmaanChat */;
+			targetProxy = D35432E01EE2E59C00565ADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35432C71EE2E59C00565ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35432C81EE2E59C00565ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35432CC1EE2E59C00565ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35432CD1EE2E59C00565ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35432E61EE2E59C00565ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D35432E71EE2E59C00565ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35432E91EE2E59C00565ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVLUUPZQCB;
+				INFOPLIST_FILE = AmaanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmaanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D35432EA1EE2E59C00565ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVLUUPZQCB;
+				INFOPLIST_FILE = AmaanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmaanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D35432EC1EE2E59C00565ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YVLUUPZQCB;
+				INFOPLIST_FILE = AmaanChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmaanChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmaanChat.app/AmaanChat";
+			};
+			name = Debug;
+		};
+		D35432ED1EE2E59C00565ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YVLUUPZQCB;
+				INFOPLIST_FILE = AmaanChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmaanChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmaanChat.app/AmaanChat";
+			};
+			name = Release;
+		};
+		D35432EF1EE2E59C00565ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YVLUUPZQCB;
+				INFOPLIST_FILE = AmaanChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmaanChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AmaanChat;
+			};
+			name = Debug;
+		};
+		D35432F01EE2E59C00565ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YVLUUPZQCB;
+				INFOPLIST_FILE = AmaanChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmaanChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AmaanChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35432BB1EE2E59C00565ADC /* Build configuration list for PBXProject "AmaanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35432E61EE2E59C00565ADC /* Debug */,
+				D35432E71EE2E59C00565ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35432E81EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35432E91EE2E59C00565ADC /* Debug */,
+				D35432EA1EE2E59C00565ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D35432EB1EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35432EC1EE2E59C00565ADC /* Debug */,
+				D35432ED1EE2E59C00565ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D35432EE1EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35432EF1EE2E59C00565ADC /* Debug */,
+				D35432F01EE2E59C00565ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35432B81EE2E59C00565ADC /* Project object */;
+}
