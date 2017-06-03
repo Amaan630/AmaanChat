@@ -10,17 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let pageScroll: UIScrollView = UIScrollView()
+    @IBOutlet weak var pageScroll: UIScrollView!
+    let screenSize = UIScreen.main.bounds
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
-        //Page Scroller
+        // MARK: - Page Scroller
         pageScroll.isPagingEnabled = true
         
-        pageScroll.alwaysBounceVertical = false
-        pageScroll.alwaysBounceHorizontal = false
+        pageScroll.bounces = false
         pageScroll.showsVerticalScrollIndicator = false
         pageScroll.showsHorizontalScrollIndicator = false
         
@@ -30,17 +30,17 @@ class ViewController: UIViewController {
         
         
         
-        //Create V1
+        // MARK: - V1
         let V1 : View1 = View1(nibName: "View1", bundle: nil)
         
         self.addChildViewController(V1)
         self.pageScroll.addSubview(V1.view)
         V1.didMove(toParentViewController: self)
-        //End of Create V1
+        //End of V1
         
         
         
-        //Create V2
+        // MARK: - V2
         let V2 : View2 = View2(nibName: "View2", bundle: nil)
         
         self.addChildViewController(V2)
@@ -50,11 +50,11 @@ class ViewController: UIViewController {
         var V2Frame : CGRect = V2.view.frame
         V2Frame.origin.x = self.view.frame.width
         V2.view.frame = V2Frame
-        //End of Create V2
+        //End of V2
         
         
         
-        //Create V3
+        // MARK: - V3
         let V3 : View3 = View3(nibName: "View3", bundle: nil)
         
         self.addChildViewController(V3)
@@ -62,9 +62,9 @@ class ViewController: UIViewController {
         V3.didMove(toParentViewController: self)
         
         var V3Frame : CGRect = V3.view.frame
-        V3Frame.origin.x = self.view.frame.width
+        V3Frame.origin.x = 2 * self.view.frame.width
         V3.view.frame = V3Frame
-        //End of Create V3
+        //End of V3
     }
 
     override func didReceiveMemoryWarning() {

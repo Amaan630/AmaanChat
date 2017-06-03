@@ -9,27 +9,30 @@
 import UIKit
 
 class View1: UIViewController {
+    
+    
+    //Variables
+    let screenSize = UIScreen.main.bounds
+    //End of Variables
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        // MARK: - Contacts
+        var contacts = ["Bob", "Jay", "Jed"]
+        contacts.append("Seth")
+        
+        var contactList: UITableView = UITableView()
+        contactList.sizeToFit()
+        //End of Contacts
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
