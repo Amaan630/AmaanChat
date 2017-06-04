@@ -14,24 +14,31 @@ class View3: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        //Variables
+        let screenSize = UIScreen.main.bounds
+        
+        let maximumY = V3View.frame.maxY
+        let minimumY = V3View.frame.minY
+        let maximumX = V3View.frame.maxX
+        let minimumX = V3View.frame.minX
+        //End of Variables
 
-        // Do any additional setup after loading the view.
+        
+        
+        
+        
+        // MARK: - Header
+        let purpleHeader: UIView = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: 64))
+        purpleHeader.backgroundColor = UIColor(red:1.00, green:0.31, blue:0.44, alpha:1.0)
+        V3View.addSubview(purpleHeader)
+        //End of Header
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

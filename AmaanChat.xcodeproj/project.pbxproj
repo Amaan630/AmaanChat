@@ -540,6 +540,7 @@
 				D35432EA1EE2E59C00565ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D35432EB1EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChatTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +549,7 @@
 				D35432ED1EE2E59C00565ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D35432EE1EE2E59C00565ADC /* Build configuration list for PBXNativeTarget "AmaanChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +558,7 @@
 				D35432F01EE2E59C00565ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
