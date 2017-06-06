@@ -32,9 +32,31 @@ class View1: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         
         // MARK: - Header
-        let greenHeader: UIView = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: 64))
-        greenHeader.backgroundColor = UIColor(red:0.58, green:0.97, blue:0.53, alpha:1.0)
+        let greenHeader: UIView = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: 75))
+        greenHeader.backgroundColor = UIColor(red:0.49, green:0.90, blue:0.54, alpha:1.0)
         V1View.addSubview(greenHeader)
+        
+        let title = UILabel(frame: CGRect(x: 55, y: 27, width: screenSize.width-20, height: 30))
+        title.text = "Chat"
+        title.textColor = UIColor.white
+        title.font = UIFont(name:"HelveticaNeue-Bold", size: 20.0)
+        V1View.addSubview(title)
+        
+        let searchIcon = UIImage(named: "Search Icon")
+        let searchIconView = UIImageView(image: searchIcon)
+        searchIconView.frame = CGRect(x: 15, y: 32, width: 20, height: 20)
+        V1View.addSubview(searchIconView)
+    
+        //let searchBar = UITextField(frame: CGRect(x: 105, y: 29, width: screenSize.width-20, height: 30))
+        //searchBar.text = "Search"
+        //searchBar.textColor = UIColor.white
+        //V1View.addSubview(searchBar)
+        
+        let curvedTop = UIView()
+        curvedTop.backgroundColor = UIColor.white
+        curvedTop.frame = CGRect(x: 0, y: 65, width: screenSize.width, height: 20)
+        curvedTop.layer.cornerRadius = 10
+        V1View.addSubview(curvedTop)
         //End of Header
 
         
@@ -43,7 +65,7 @@ class View1: UIViewController, UITableViewDataSource, UITableViewDelegate {
         var contactList: UITableView = UITableView()
         contactList.rowHeight = 50
         contactList.separatorInset.right = 15
-        contactList.frame = CGRect(x: minimumX, y: minimumY+64, width: screenSize.width, height: screenSize.height-64)
+        contactList.frame = CGRect(x: minimumX, y: minimumY+79, width: screenSize.width, height: screenSize.height-79)
         
         contactList.delegate = self as UITableViewDelegate
         contactList.dataSource = self as UITableViewDataSource
