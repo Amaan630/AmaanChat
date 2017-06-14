@@ -4,6 +4,7 @@
 //
 //  Created by Amaan Ali on 6/3/17.
 //  Copyright © 2017 Amaan Ali. All rights reserved.
+//  😜
 //
 
 import UIKit
@@ -24,7 +25,7 @@ class ViewController: UIViewController {
         pageScroll.showsVerticalScrollIndicator = false
         pageScroll.showsHorizontalScrollIndicator = false
         
-        self.pageScroll.contentSize = CGSize(width: self.view.frame.width * 3, height: self.view.frame.height)
+        self.pageScroll.contentSize = CGSize(width: self.view.frame.width * 4, height: self.view.frame.height)
         self.pageScroll.contentOffset.x = self.view.frame.width
         //End of Page Scroller
         
@@ -65,6 +66,19 @@ class ViewController: UIViewController {
         V3Frame.origin.x = 2 * self.view.frame.width
         V3.view.frame = V3Frame
         //End of V3
+        
+        
+        // MARK: - AC
+        let AC : AddContact = AddContact(nibName: "AddContact", bundle: nil)
+        
+        self.addChildViewController(AC)
+        self.pageScroll.addSubview(AC.view)
+        AC.didMove(toParentViewController: self)
+        
+        var ACFrame : CGRect = AC.view.frame
+        ACFrame.origin.x = 3 * self.view.frame.width
+        AC.view.frame = ACFrame
+        //End of AC
     }
 
     override func didReceiveMemoryWarning() {

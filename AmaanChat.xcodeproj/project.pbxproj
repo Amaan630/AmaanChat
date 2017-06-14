@@ -20,7 +20,14 @@
 		D35432F81EE2E63600565ADC /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35432F61EE2E63600565ADC /* View2.xib */; };
 		D35432FD1EE2E65300565ADC /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35432FB1EE2E65300565ADC /* View3.swift */; };
 		D35432FE1EE2E65300565ADC /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35432FC1EE2E65300565ADC /* View3.xib */; };
+		D3CAED2C1EEEDE9500B243B3 /* AddContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CAED2A1EEEDE9500B243B3 /* AddContact.swift */; };
+		D3CAED2D1EEEDE9500B243B3 /* AddContact.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3CAED2B1EEEDE9500B243B3 /* AddContact.xib */; };
+		D3CAED301EEEDEA800B243B3 /* RemoveContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CAED2E1EEEDEA800B243B3 /* RemoveContact.swift */; };
+		D3CAED311EEEDEA800B243B3 /* RemoveContact.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3CAED2F1EEEDEA800B243B3 /* RemoveContact.xib */; };
+		D3CAED331EEEEB0B00B243B3 /* ClassContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CAED321EEEEB0B00B243B3 /* ClassContactInfo.swift */; };
+		D3EDAEF41EE9E85C00F42B69 /* Purple Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EDAEF31EE9E85C00F42B69 /* Purple Circle.png */; };
 		D3FE3FCA1EE74F650099D79B /* Search Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FE3FC91EE74F650099D79B /* Search Icon.png */; };
+		D3FE3FCC1EE756600099D79B /* Search Icon White.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FE3FCB1EE756600099D79B /* Search Icon White.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +67,14 @@
 		D35432F61EE2E63600565ADC /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 		D35432FB1EE2E65300565ADC /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		D35432FC1EE2E65300565ADC /* View3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
+		D3CAED2A1EEEDE9500B243B3 /* AddContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContact.swift; sourceTree = "<group>"; };
+		D3CAED2B1EEEDE9500B243B3 /* AddContact.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContact.xib; sourceTree = "<group>"; };
+		D3CAED2E1EEEDEA800B243B3 /* RemoveContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveContact.swift; sourceTree = "<group>"; };
+		D3CAED2F1EEEDEA800B243B3 /* RemoveContact.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemoveContact.xib; sourceTree = "<group>"; };
+		D3CAED321EEEEB0B00B243B3 /* ClassContactInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassContactInfo.swift; sourceTree = "<group>"; };
+		D3EDAEF31EE9E85C00F42B69 /* Purple Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Purple Circle.png"; path = "../../../Purple Circle.png"; sourceTree = "<group>"; };
 		D3FE3FC91EE74F650099D79B /* Search Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Search Icon.png"; path = "../../../Search Icon.png"; sourceTree = "<group>"; };
+		D3FE3FCB1EE756600099D79B /* Search Icon White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search Icon White.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +128,21 @@
 				D35432C31EE2E59C00565ADC /* AppDelegate.swift */,
 				D35432C51EE2E59C00565ADC /* ViewController.swift */,
 				D35432C71EE2E59C00565ADC /* Main.storyboard */,
+				D3CAED321EEEEB0B00B243B3 /* ClassContactInfo.swift */,
 				D35432F11EE2E61500565ADC /* View1.swift */,
 				D35432F21EE2E61500565ADC /* View1.xib */,
 				D35432F51EE2E63600565ADC /* View2.swift */,
 				D35432F61EE2E63600565ADC /* View2.xib */,
 				D35432FB1EE2E65300565ADC /* View3.swift */,
 				D35432FC1EE2E65300565ADC /* View3.xib */,
+				D3CAED2A1EEEDE9500B243B3 /* AddContact.swift */,
+				D3CAED2B1EEEDE9500B243B3 /* AddContact.xib */,
+				D3CAED2E1EEEDEA800B243B3 /* RemoveContact.swift */,
+				D3CAED2F1EEEDEA800B243B3 /* RemoveContact.xib */,
 				D35432CA1EE2E59C00565ADC /* Assets.xcassets */,
 				D3FE3FC91EE74F650099D79B /* Search Icon.png */,
+				D3FE3FCB1EE756600099D79B /* Search Icon White.png */,
+				D3EDAEF31EE9E85C00F42B69 /* Purple Circle.png */,
 				D35432CC1EE2E59C00565ADC /* LaunchScreen.storyboard */,
 				D35432CF1EE2E59C00565ADC /* Info.plist */,
 			);
@@ -257,12 +278,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3FE3FCA1EE74F650099D79B /* Search Icon.png in Resources */,
+				D3FE3FCC1EE756600099D79B /* Search Icon White.png in Resources */,
 				D35432CE1EE2E59C00565ADC /* LaunchScreen.storyboard in Resources */,
 				D35432CB1EE2E59C00565ADC /* Assets.xcassets in Resources */,
 				D35432FE1EE2E65300565ADC /* View3.xib in Resources */,
+				D3CAED311EEEDEA800B243B3 /* RemoveContact.xib in Resources */,
+				D3CAED2D1EEEDE9500B243B3 /* AddContact.xib in Resources */,
 				D35432F41EE2E61500565ADC /* View1.xib in Resources */,
 				D35432F81EE2E63600565ADC /* View2.xib in Resources */,
 				D35432C91EE2E59C00565ADC /* Main.storyboard in Resources */,
+				D3EDAEF41EE9E85C00F42B69 /* Purple Circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +315,11 @@
 				D35432C61EE2E59C00565ADC /* ViewController.swift in Sources */,
 				D35432FD1EE2E65300565ADC /* View3.swift in Sources */,
 				D35432F31EE2E61500565ADC /* View1.swift in Sources */,
+				D3CAED2C1EEEDE9500B243B3 /* AddContact.swift in Sources */,
 				D35432C41EE2E59C00565ADC /* AppDelegate.swift in Sources */,
+				D3CAED301EEEDEA800B243B3 /* RemoveContact.swift in Sources */,
 				D35432F71EE2E63600565ADC /* View2.swift in Sources */,
+				D3CAED331EEEEB0B00B243B3 /* ClassContactInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
